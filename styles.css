@@ -5,22 +5,30 @@ body {
   background-color: #ffffff;
   margin-left: 300px;
 }
-
 h1 {
 /*sidebar headline */
   text-align: center;
   margin: 2px;
-  line-height: 1.1;
-  padding-top: 5px;
+  line-height: 1;
+  padding: 10px 0px;
+}
+h2 {
+  font-size: 20pt;
+  font-style: strong;
 }
 
 p {
+  display: flex;
   margin: 1px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
 }
-
 img {
   max-width: 100%;
   display: block;
+}
+ul {
+  margin: 0; padding: 0;
 }
 
 .main {
@@ -38,12 +46,16 @@ img {
  padding: 1em;
 }
 
+.marginpadding {
+  padding-right: 10em;
+}
 
 /* navigation code */
 .topnav {
 background-color: #ffffff;
 overflow: hidden;
 margin-top: 1em;
+padding-bottom: 2em;
 }
 
 .topnav a {
