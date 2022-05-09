@@ -9,13 +9,44 @@
 		<meta name="keywords" content="Rochita Ghosh, design, graphics, newsrooms, newspapers, Columbia Missourian, Vox, articles, journalist">
 		<meta name="viewport" content="width=device-width">
 		<link rel="stylesheet" href="styles.css">
-		<meta property="og:url" content="http://patrickgarvin.com/" />
+		<meta property="og:url" content="http://rochitaghoshportfolio.com/" />
 		<meta property="og:title" content="Rochita Ghosh" />
-		<meta property="og:image" content="http://patrickgarvin.com/images/og_image.jpg" />
+		<meta property="og:image" content="assets/headshot.JPG" />
 		<meta property="og:site_name" content="Rochita Ghosh" />
 
 	</head>
   <body>
+		<div class="sidebar">
+			<img src="assets/headshot.JPG" alt="A portrait shot of Rochita Ghosh.">
+			<h1>Rochita Ghosh</h1>
+			<p>I am a college student looking for a position that will broaden my experiences in journalism.</p>
+			<br>
+		</div>
 
+		<div class="main">
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+			<br><div class="topnav" id="myTopnav">
+				<a href= "index.html" tabindex="0">Home</a>
+				<a href= "resume.html" tabindex="0" class="active">Resume</a>
+				<a href= "portfolio.html" tabindex="0">Portfolio</a>
+				<a href= "contact.html" tabindex="0">Contact</a>
+				<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+			<i class="fa fa-bars"></i></a>
+		</div>
+		<figure>
+			<img ref="assets/pencil.jpg" alt="A black and white cartoon drawing of a pencil.">
+			<figcaption><a href="https://www.vecteezy.com/free-vector/pencil">Pencil Vectors by Vecteezy</a></figcaption>
+		</figure>
+
+		<script>
+				function myFunction() {
+				  var x = document.getElementById("myTopnav");
+				  if (x.className === "topnav") {
+				    x.className += " responsive";
+				  } else {
+				    x.className = "topnav";
+				  }
+				}
+		</script>
   </body>
 </html>
