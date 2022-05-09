@@ -16,7 +16,14 @@ h2 {
   font-size: 20pt;
   font-style: strong;
 }
-
+h3 {
+  /* resume headlines */
+  background-color: #1d5e2e;
+  outline-style: solid;
+  outline-color: #1d5e2e;
+  outline-width: 0.5em;
+  color: white;
+}
 p {
   display: flex;
   margin: 1px;
@@ -26,7 +33,6 @@ p {
 }
 img {
   max-width: 100%;
-  display: block;
 }
 ul {
   margin: 0; padding: 0;
