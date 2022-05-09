@@ -57,6 +57,13 @@ ul {
   padding-right: 10em;
 }
 
+.resumeicon {
+  float: left;
+  width: 1em;
+  height: auto;
+  padding: 5px;
+}
+
 /* navigation code */
 .topnav {
 background-color: #ffffff;
