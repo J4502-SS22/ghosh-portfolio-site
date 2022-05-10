@@ -4,6 +4,8 @@ body {
   color: black;
   background-color: #ffffff;
   margin-left: 300px;
+  overflow-x: hidden;
+  -webkit-text-size-adjust: 100%;
 }
 h1 {
 /*sidebar headline */
@@ -46,22 +48,28 @@ ul {
 }
 
 /* responsive web design code */
-@media (min-width: 500px) {
-  .sidebar {
+@media screen and (max-width: 700px) {
+body {
+  margin: 0;
+}
+body .sidebar {
   width: 92%;
   height: auto;
   position: relative;
   }
-
-}
-
-@media (max-width: 900px) {
+body .headshot {
+    width: 25%;
+    float: left;
+    padding: 1em;
+  }
   .main {
-  margin: auto;
+  margin-left:1em;
+  margin-right: 1em;
   padding: 0px;
   }
-  .headshot {float:left; width: 25%;}
+
 }
+
 
 /* classes */
 .navigation {
@@ -94,7 +102,6 @@ ul {
 
 .headshot {
   width: 100%;
-  height: auto;
 }
 
 /* navigation code */
@@ -123,6 +130,9 @@ padding-bottom: 2em;
 .topnav a.active {
   background-color: #1d5e2e;
   color: white;
+}
+.topnav a.headshot {
+  display: none;
 }
 
 @media screen and (max-width: 700px) {
