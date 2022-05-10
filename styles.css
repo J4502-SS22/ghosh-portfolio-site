@@ -98,6 +98,8 @@ body .headshot {
   width: 1em;
   height: auto;
   padding: 5px;
+  padding-left: 0px;
+  display: inline-block;
 }
 
 .headshot {
