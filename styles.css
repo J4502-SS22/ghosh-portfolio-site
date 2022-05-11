@@ -46,6 +46,15 @@ ul {
   margin: 0;
   padding-left: 20px;
 }
+table, th, td {
+  border: 2px solid #1d5e2e;
+  border-collapse: collapse;
+}
+th, td {
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+}
 
 /* responsive web design code */
 @media screen and (max-width: 700px) {
