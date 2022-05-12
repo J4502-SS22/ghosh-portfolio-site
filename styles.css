@@ -72,6 +72,9 @@ figcaption {
   margin: 10px 10px 10px 0px;
   text-align: center;
 }
+iframe {
+  margin-bottom: 10px;
+}
 
 /* responsive web design code */
 @media screen and (max-width: 700px) {
