@@ -33,6 +33,14 @@ h4 {
   font-style: strong;
   margin-bottom: 10px;
 }
+
+h5 {
+  /* portfolio subheads */
+  font-size: 18pt;
+  text-align: center;
+  margin: 10px 0px;
+}
+
 p {
   display: flex;
   flex-wrap: wrap;
@@ -53,6 +61,15 @@ table, th, td {
 th, td {
   width: 50%;
   padding: 10px;
+  text-align: center;
+}
+figure {
+  margin: 0px 10px 10px 0px;
+  width: 45%;
+}
+figcaption {
+  font-size: 10pt;
+  margin: 10px 10px 10px 0px;
   text-align: center;
 }
 
@@ -76,6 +93,11 @@ body .headshot {
   margin-right: 1em;
   padding: 0px;
   }
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+
 
 }
 
@@ -114,14 +136,38 @@ body .headshot {
 .linkbutton {
   background-color: #bdffd6;
   color: black;
+  margin: 10px 10px 10px 0px;
   padding: 14px 20px;
   text-align: center;
   text-decoration: none;
-  margin-right: 10px;
 }
 .linkbutton:hover{
   background-color: #1d5e2e;
   color: white;
+}
+.foliosection {
+  display: flex;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  justify-content: center;
+}
+.row img {
+  vertical-align: middle;
+}
+
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
 }
 
 
